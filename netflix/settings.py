@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-_@dfc!kejf7%!1n)4=7vb(60hjfm*)^^pqrhe_cps=(f_n5klx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "True") == "True"
 
-ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "127.0.0.1,localhost").split(",")
+ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "127.0.0.1,localhost","netflix-guef.onrender.com","localhost").split(",")
 
 
 
